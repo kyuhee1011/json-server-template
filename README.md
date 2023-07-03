@@ -15,18 +15,20 @@ with a key pointing to an array of data, like this:
 
 ```json
 {
-  "toys": [
+  "desserts": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "Dalgona (Korean sugar candy)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Dalgona.jpg/220px-Dalgona.jpg",
+      "description": "Sweet Sugar Candy with fun shape",
+      "favorite": false
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "Korean Fish Shaped Bread (Bungeoppang)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Boong_o_bbang.jpg/220px-Boong_o_bbang.jpg",
+      "description": "Bungeoppang is a fish-shaped bread with sweetened red bean filling.",
+      "favorite": true
     }
   ]
 }
@@ -107,3 +109,7 @@ git push
 Then launch the build process by going to the page for your server on the
 Render dashboard, clicking the "Manual Deploy" button in the upper right corner
 of the page, and selecting "Deploy latest commit."
+
+## Frontend cod GitHub Repository
+
+https://github.com/kyuhee1011/kyuhee-react-project
