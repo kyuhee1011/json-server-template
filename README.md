@@ -2,12 +2,22 @@
 
 ## Setup
 
-Fork and clone this repo. Then install the dependencies by running:
+Before opening the Frontend server, you must fork and clone this repository first and open the JSON server. 
+
+```sh
+git clone git@github.com:kyuhee1011/json-server-template.git
+cd db
+```
+
+Then install the dependencies by running:
 
 ```sh
 npm install
 ```
-
+Then open the JSON server by running:
+```sh
+json-server --watch db.json
+```
 ## Seeding Data
 
 To set up your database, update the `db/seeds.json` file to contain an object
